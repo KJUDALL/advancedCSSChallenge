@@ -232,18 +232,23 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
 .run-buddy {
+	background-image: url(images/runBuddy.jpg);
 }
 
 .led-wall {
+	background-image: url(images/ledWall.jpg);
 }
 
 .react-calc {
+	background-image: url(images/calculate.jpg);
 }
 
 .pastel-puzzles {
+	background-image: url(images/pastel.jpg);
 }
 
 .surf-report {
+	background-image: url(images/mernStack.jpg);
 }
 
 /* media queries */
