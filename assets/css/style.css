@@ -93,7 +93,7 @@ main {
 
 .hero-banner {
 	background: rgb(68, 88, 120);
-	background-image: url("/assets/images/blue-background.jpg"),
+	background-image: url("../images/blue-background.jpg"),
 		linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
 	background-size: cover;
 	background-position: center;
@@ -233,27 +233,26 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
 .run-buddy {
-	background-image: url(/assets/images/runBuddy.jpg);
+	background-image: url(../images/runBuddy.jpg);
 }
 
 .led-wall {
-	background-image: url(/assets/images/ledWall.jpg);
+	background-image: url(../images/ledWall.jpg);
 }
 
 .react-calc {
-	background-image: url(/assets/images/calculate.jpg);
+	background-image: url(../images/calculate.jpg);
 }
 
 .pastel-puzzles {
-	background-image: url(/assets/images/pastel.jpg);
+	background-image: url(../images/pastel.jpg);
 }
 
 .surf-report {
-	background-image: url(/assets/images/mernStack.jpg);
+	background-image: url(../images/mernStack.jpg);
 }
 
 /* media queries */
-
 /* media queries for a max-width of 980px */
 @media screen and (max-width: 980px) {
 	header {
@@ -290,22 +289,15 @@ main {
 }
 
 /* TODO: add media query for a max-width of 768px */
-@media screen and (max-width: 768px) {
-	header {
-		padding: 0 0 10px 0;
-		justify-content: center;
-		text-align: center;
-	}
-}
-header h1 {
-	width: 100%;
-	padding: 20px;
-	margin-bottom: 10px;
-	font-size: 8vw;
-}
+/* @media screen and (min-width: 768px) { */
 
-.page-section > h2,
-.page-section > h3,
-.page-section > section {
-	flex: 100 100 100%;
+@media screen and (max-width: 768px) {
+	.flex-item {
+		min-height: 100px;
+		flex-basis: 100%;
+	}
+	.flex-item:first-child {
+		min-height: 100px;
+		flex-basis: 100%;
+	}
 }
